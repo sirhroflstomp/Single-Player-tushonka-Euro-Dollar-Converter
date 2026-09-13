@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <!-- Copy this file to Directory.Build.props.user and set the real path.
+         Directory.Build.props.user should NOT be committed to source control
+         since it's local-machine-specific. -->
+    <TarkovDir>C:\Path\To\Your\SPT</TarkovDir>
+  </PropertyGroup>
+</Project>

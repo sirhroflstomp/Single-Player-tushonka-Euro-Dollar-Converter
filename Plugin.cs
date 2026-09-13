@@ -41,8 +41,8 @@ namespace SptCurrencyConverter
 
     internal static class PluginInfo
     {
-        public const string GUID = "com.yourname.sptcurrencyconverter";
-        public const string NAME = "Currency Converter (RUB)";
+        public const string GUID = "com.sirhroflstomp.eurodollarcurrencyconverter";
+        public const string NAME = "sirhroflstomp-EuroDollarCurrencyConverter";
         public const string VERSION = "0.3.0";
     }
 }

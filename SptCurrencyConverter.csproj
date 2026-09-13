@@ -45,7 +45,7 @@
       <Private>false</Private>
     </Reference>
 
-    <!-- bepinex/harmony -->
+    <!-- BepInEx / Harmony -->
     <Reference Include="BepInEx">
       <HintPath>$(TarkovDir)\BepInEx\core\BepInEx.dll</HintPath>
       <Private>false</Private>
@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
 
+  <!-- After building, drop the DLL straight into your plugins folder for fast iteration -->
   <Target Name="DeployToPlugins" AfterTargets="Build" Condition="Exists('$(TarkovDir)\BepInEx\plugins')">
     <ItemGroup>
       <DeployFiles Include="$(TargetDir)$(AssemblyName).dll" />

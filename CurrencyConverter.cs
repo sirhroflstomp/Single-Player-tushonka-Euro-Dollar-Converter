@@ -47,6 +47,7 @@ namespace SptCurrencyConverter
             return type == ECurrencyType.EUR ? usd * 1.08f : usd;
         }
 
+        // A currency item's own handbook price IS its RUB value -- same number the game
         // uses for trader math and ragfair taxes.
         private static bool TryGetLiveRate(ECurrencyType type, out float rate)
         {
