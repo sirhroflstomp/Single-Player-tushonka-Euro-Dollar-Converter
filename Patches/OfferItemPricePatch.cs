@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace SptCurrencyConverter.Patches
 {
-    // flea market prices go through OfferItemPrice.Show.
+    // both go through OfferItemPrice.Show.
     public class OfferItemPricePatch : ModulePatch
     {
         protected override MethodBase GetTargetMethod()

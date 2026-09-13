@@ -8,7 +8,6 @@ using UnityEngine;
 
 namespace SptCurrencyConverter.Patches
 {
-    // on cash stacks themselves (stash, raid, containers).
     public class MoneyStackValuePatch : ModulePatch
     {
         private const string LineSize = "70%";

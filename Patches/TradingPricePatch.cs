@@ -8,6 +8,7 @@ using UnityEngine;
 
 namespace SptCurrencyConverter.Patches
 {
+    // adds ruble line under traderss
     public class TradingPricePatch : ModulePatch
     {
         protected override MethodBase GetTargetMethod()
